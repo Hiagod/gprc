@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "gpcr",
+    "scheme": "com.hiago.gpcr",
+    "slug": "gpcr",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.hiago.gpcr"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera",
+        }
+      ],
+      "expo-document-picker",
+      "@react-native-google-signin/google-signin",
+      [
+        "react-native-vision-camera",
+        {
+          "cameraPermissionText": "$(PRODUCT_NAME) needs access to your Camera."
+        }
+      ],
+      "expo-router"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "009df696-f118-475c-b6f3-339a96aec05e"
+      }
+    }
+  }
+}

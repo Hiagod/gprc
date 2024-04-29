@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    depends_on:
+      - db
+  db:
+    image: postgres:latest
+    volumes:
+      - ./create_tables.sql:/docker-entrypoint-initdb.d/create_tables.sql
+    environment:
+      POSTGRES_USER:
+      POSTGRES_PASSWORD: 
+      POSTGRES_DB:
