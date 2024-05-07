@@ -18,6 +18,8 @@ Certifique-se de ter as seguintes ferramentas instaladas em seu ambiente de dese
 - React Native CLI
 - Docker
 
+Certifique-se de atualizar no código o endereço IP Flutuante a ser utilizado posteriormente por apk, assim como os novos endpoints.
+
 ## Configuração e Execução
 
 Para rodar a aplicação em ambientes locais e utilizando Docker, siga os passos abaixo:
