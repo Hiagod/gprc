@@ -1,4 +1,4 @@
-# Sistema de Controle de Presença Estudantil
+# SISTEMA AUTOMÁTICO MÓVEL PARA GESTÃO DE PRESENÇA UTILIZANDO RECONHECIMENTO FACIAL
 
 Este é um sistema desenvolvido em Flask (Python) e React Native para controle de presença estudantil em turmas. O sistema permite o cadastro de professores, turmas, alunos e registros de presença. Os professores podem marcar a presença dos alunos nas turmas em que estão cadastrados.
 
